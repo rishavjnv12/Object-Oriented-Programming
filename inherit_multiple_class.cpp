@@ -22,7 +22,7 @@ class derived : public base1, public base2
 public:
     void set(int i, int j)
     {
-        x = i;
+        x = i; // Accessble
         y = j;
     }
 };
